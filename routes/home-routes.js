@@ -23,4 +23,13 @@ router.get('/', (req, res) => {
       });
   });
 
+  router.get('/add-post', (req, res) => {
+    res.render('add-post');
+  });
+
+  router.get('/login', (req, res) => {
+    res.render('login');
+  });
+
+
 module.exports = router;
